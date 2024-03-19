@@ -3,5 +3,6 @@ first varchar,
 second varchar,
 third varchar,
 fourth varchar,
-fifth varchar
+fifth varchar,
+sixth varchar
 );
