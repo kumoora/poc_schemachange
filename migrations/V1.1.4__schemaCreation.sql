@@ -1,1 +1,0 @@
-create schema poc3;
