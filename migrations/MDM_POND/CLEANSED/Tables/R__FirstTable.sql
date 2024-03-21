@@ -1,4 +1,4 @@
-create table cleansed.first_tbl(
-    first_column varchar
+create table cleansed.first_table(
+    first_column varchar,
     second_column varchar
 ) 
