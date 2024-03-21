@@ -1,0 +1,1 @@
+alter table cleansed.second_table add column third_column varchar;
