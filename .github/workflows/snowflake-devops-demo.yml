@@ -33,7 +33,7 @@ jobs:
               SF_ROLE: ${{ secrets.SF_ROLE }}
               SF_WAREHOUSE: ${{ secrets.SF_WAREHOUSE }}
               SF_DATABASE: ${{ secrets.SF_QA_DATABASE}}
-              SNOWFLAKE_AUTHENTICATOR: 'https://trial-6721765.okta.com/app/snowflake/exkcn7m3qvIv1kGzX697/sso/saml'
+              SNOWFLAKE_AUTHENTICATOR: 'http://www.okta.com/exkcn7m3qvIv1kGzX697'
               SNOWFLAKE_PASSWORD: ${{ secrets.SF_PASSWORD }}
             
             run: |
@@ -67,7 +67,7 @@ jobs:
               SF_ROLE: ${{ secrets.SF_ROLE }}
               SF_WAREHOUSE: ${{ secrets.SF_WAREHOUSE }}
               SF_DATABASE: ${{ secrets.SF_DEV_DATABASE }}
-              SNOWFLAKE_AUTHENTICATOR: 'https://trial-6721765.okta.com/app/snowflake/exkcn7m3qvIv1kGzX697/sso/saml'
+              SNOWFLAKE_AUTHENTICATOR: 'http://www.okta.com/exkcn7m3qvIv1kGzX697'
               SNOWFLAKE_PASSWORD: ${{ secrets.SF_PASSWORD }}
             run: |
               echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
