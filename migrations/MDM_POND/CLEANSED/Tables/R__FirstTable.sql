@@ -1,4 +1,4 @@
 create or replace table  cleansed.first_table_1(
-    first_column1 varchar
+    first_column12 varchar
 ) ;
 
