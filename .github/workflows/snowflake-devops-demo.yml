@@ -34,7 +34,7 @@ jobs:
               SF_WAREHOUSE: ${{ secrets.SF_WAREHOUSE }}
               SF_DATABASE: ${{ secrets.SF_QA_DATABASE}}
               SNOWFLAKE_AUTHENTICATOR: 'http://www.okta.com/exkcn7m3qvIv1kGzX697'
-              SNOWFLAKE_PASSWORD: ${{ secrets.SF_PASSWORD_2 }}
+              
             
             run: |
               echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
@@ -68,7 +68,7 @@ jobs:
               SF_WAREHOUSE: ${{ secrets.SF_WAREHOUSE }}
               SF_DATABASE: ${{ secrets.SF_DEV_DATABASE }}
               SNOWFLAKE_AUTHENTICATOR: 'http://www.okta.com/exkcn7m3qvIv1kGzX697'
-              SNOWFLAKE_PASSWORD: ${{ secrets.SF_PASSWORD_2 }}
+              
             run: |
               echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
               python --version
